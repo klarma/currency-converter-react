@@ -5,6 +5,12 @@ import Section from "./Section";
 import Container from "./Container";
 
 function App() {
+  const welcome = () => {
+    console.log("Hello world created by Krzysiu. Nice to be here");
+  };
+
+  welcome();
+
   return (
     <>
       <Header />
@@ -15,6 +21,7 @@ function App() {
             <Form />
           }
         />
+
         <Section
           title="Wynik:"
           body={
