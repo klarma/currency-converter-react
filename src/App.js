@@ -16,6 +16,7 @@ function App() {
       <Header />
       <Container>
         <Section
+          className="section"
           title="Kalkulator walut"
           body={
             <Form />
@@ -23,6 +24,7 @@ function App() {
         />
 
         <Section
+          className="section section--height"
           title="Wynik:"
           body={
             <p className="section__paragraph"></p>
