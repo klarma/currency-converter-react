@@ -13,6 +13,11 @@ const Form = ({ calculateResult }) => {
         calculateResult(amount, currency);
     };
 
+    const resetForm = ()=>{
+        setAmount("");
+        setCurrency(currencies[0].short);
+    };
+
     return (
         <form
             className="form"
@@ -61,7 +66,7 @@ const Form = ({ calculateResult }) => {
             </p>
             <p>
                 <button className="form__button">Przelicz</button>
-                <button className="form__button" type="reset">Wyczyść</button>
+                <button onClick={resetForm} className="form__button" type="reset">Wyczyść</button>
             </p>
         </form>
     );
