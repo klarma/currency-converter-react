@@ -3,7 +3,7 @@ import "./style.css";
 const Result = ({ result }) => {
     return (
         <p className="result">
-            {result !== undefined && (
+            {!!result && (
                 <>
                     {result.sourceAmount.toFixed(2)}&nbsp;PLN&nbsp;={" "}
                     <strong>
