@@ -5,7 +5,7 @@ import { currencies } from "../currencies";
 const Form = (props) => {
     const [amount, setAmount] = useState("");
 
-    const [currency, setCurrency] = useState("EUR");
+    const [currency, setCurrency] = useState(currencies[0].short);
 
     return (
         <form className="form" action="https://postman-echo.com/get">
