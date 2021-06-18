@@ -1,9 +1,9 @@
-.section__paragraph {
+.result {
     font-size: 25px;
 }
 
 @media(max-width: 767px) {
-    .section__paragraph {
+    .result {
         font-size: 18px;
     }
 }

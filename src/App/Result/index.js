@@ -2,7 +2,7 @@ import "./style.css";
 
 const Result = (props) => {
     return (
-        <p className="section__paragraph"></p>
+        <p className="result"></p>
     );
 };
 
