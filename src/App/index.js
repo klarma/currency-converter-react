@@ -45,7 +45,9 @@ function App() {
           className="section section--height"
           title="Wynik:"
           body={
-            <Result />
+            <Result
+              result={result}
+            />
           }
         />
       </Container>
