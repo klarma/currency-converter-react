@@ -2,13 +2,23 @@ import { useState } from "react";
 import "./style.css";
 import { currencies } from "../currencies";
 
-const Form = (props) => {
+const Form = ({calculateResult}) => {
     const [amount, setAmount] = useState("");
 
     const [currency, setCurrency] = useState(currencies[0].short);
 
+    const onFormSubmit= (event) =>{
+        event.preventDefault();
+
+        calculateResult(amount, currency);
+    }
+
     return (
-        <form className="form" action="https://postman-echo.com/get">
+        <form
+            className="form"
+            action="https://postman-echo.com/get"
+            onSubmit={onFormSubmit}
+        >
             <p>
                 <label>
                     <span className="form__labelText">

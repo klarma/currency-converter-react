@@ -3,8 +3,13 @@ import Footer from "./Footer";
 import Form from "./Form";
 import Section from "./Section";
 import Container from "./Container";
+import { currencies } from "./currencies";
 
 function App() {
+
+  const calculateResult = (amount, currency) => {
+    const rate = currencies.find(({ short }) => short === currency).rate;
+  };
 
   const welcome = () => {
     console.log("Hello world created by Krzysiu. Nice to be here");
@@ -20,7 +25,9 @@ function App() {
           className="section"
           title="Kalkulator walut"
           body={
-            <Form />
+            <Form
+              calculateResult={calculateResult}
+            />
           }
         />
 
