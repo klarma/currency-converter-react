@@ -1,8 +1,34 @@
-## Currency converter
+# Kasia Napierała - Currency converter
 
-# Description
+![kalkulator walut](currencyConverter.gif)
 
-# Getting Started with Create React App
+## Demo
+
+https://klarma.github.io/currency-converter-react/
+
+## Technologies
+
+Project is created with:
+
+- Semantic HTML;
+- CSS;
+- Media queries;
+- BEM;
+- ES6+;
+- React JS;
+- Create-react-app;
+- Webpack;
+- Babel.
+
+## Description
+
+The currency calculator is another project that aims to show my knowledge especially in React JS. I pay attention to details when writing the code and the ability to work in accordance with good practices. The correctness of my work is supervised by [Krzysztof Dąbrowski](https://www.linkedin.com/in/dabrowskisoftware) - an experienced Senior Software Engineer.
+
+## Instruction 
+
+Enter the amount you want to convert from PLN to other currencies. Select one of three popular foreign currencies. Click the "Przelicz" button and you will get results at the bottom of the application. If you want to clear all fields, just hit on the "Wyczyść" button.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
