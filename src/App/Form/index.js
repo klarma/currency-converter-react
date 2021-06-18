@@ -2,16 +2,16 @@ import { useState } from "react";
 import "./style.css";
 import { currencies } from "../currencies";
 
-const Form = ({calculateResult}) => {
+const Form = ({ calculateResult }) => {
     const [amount, setAmount] = useState("");
 
     const [currency, setCurrency] = useState(currencies[0].short);
 
-    const onFormSubmit= (event) =>{
+    const onFormSubmit = (event) => {
         event.preventDefault();
 
         calculateResult(amount, currency);
-    }
+    };
 
     return (
         <form
