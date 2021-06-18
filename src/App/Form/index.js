@@ -1,8 +1,10 @@
 import { useState } from "react";
 import "./style.css";
+import { currencies } from "../currencies";
 
 const Form = (props) => {
     const [amount, setAmount] = useState("");
+
     const [currency, setCurrency] = useState("EUR");
 
     return (
@@ -36,9 +38,14 @@ const Form = (props) => {
                         className="form__field"
                         name="currency"
                     >
-                        <option value="EUR">Euro</option>
-                        <option value="USD">Dolar amerykański</option>
-                        <option value="GBP">Funt brytyjski</option>
+                        {currencies.map((currency => (
+                            <option
+                                key={currency.short}
+                                value={currency.short}
+                            >
+                                {currency.name}
+                            </option>
+                        )))}
                     </select>
                 </label>
             </p>
