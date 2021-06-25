@@ -1,5 +1,5 @@
 .timer {
     text-align: left;
-    font-size: 15px;
-    letter-spacing: 1px;
+    font-family: monospace;
+    color: #aaa;
 }
