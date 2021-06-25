@@ -6,6 +6,7 @@ import Section from "./Section";
 import Container from "./Container";
 import { currencies } from "./currencies";
 import Result from "./Result";
+import Timer from "./Section/Timer";
 
 function App() {
   const [result, setResult] = useState();
@@ -33,6 +34,9 @@ function App() {
         <Section
           className="section"
           title="Kalkulator walut"
+          extraSectionContent={
+            <Timer />
+          }
           body={
             <Form
               calculateResult={calculateResult}
