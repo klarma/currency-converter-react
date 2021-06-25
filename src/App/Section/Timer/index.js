@@ -15,7 +15,9 @@ const Timer = (props) => {
 
     return (
         <p className="timer">
-            Dzisiaj jest {formattedDate}
+            Dzisiaj jest 
+            {" "}
+            {formattedDate}
         </p>
     );
 };
