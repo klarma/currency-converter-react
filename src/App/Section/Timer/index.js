@@ -1,3 +1,4 @@
+import "./useCurrentDate";
 import "./style.css";
 
 const Timer = (props) => {
