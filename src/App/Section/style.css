@@ -6,7 +6,7 @@
 }
 
 .section--height {
-    min-height: 25vh;
+    min-height: 22vh;
 }
 
 @media(max-width: 767px) {
