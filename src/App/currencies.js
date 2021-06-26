@@ -7,12 +7,12 @@ const currencies = [
     {
         short: "USD",
         name: "Dolar Amerykański",
-        rate: 4.57
+        rate: 3.82
     },
     {
         short: "GBP",
         name: "Funt Brytyjski",
-        rate: 4.57
+        rate: 5.26
     },
 ];
 
