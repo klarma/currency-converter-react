@@ -5,12 +5,12 @@
     box-shadow: 2px 2px 8px;
 }
 
-.section--height {
+.section--smaller {
     min-height: 22vh;
 }
 
 @media(max-width: 767px) {
-    .section--height {
+    .section--smaller {
         min-height: 30vh;
     }
 }

@@ -46,7 +46,7 @@ function App() {
         />
 
         <Section
-          className="section section--height"
+          className="section section--smaller"
           title="Wynik:"
           body={
             <Result
