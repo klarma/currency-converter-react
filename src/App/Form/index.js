@@ -13,7 +13,7 @@ const Form = ({ calculateResult }) => {
         calculateResult(amount, currency);
     };
 
-    const resetForm = ()=>{
+    const resetForm = () => {
         setAmount("");
         setCurrency(currencies[0].short);
     };
@@ -21,7 +21,6 @@ const Form = ({ calculateResult }) => {
     return (
         <form
             className="form"
-            action="https://postman-echo.com/get"
             onSubmit={onFormSubmit}
         >
             <p>
