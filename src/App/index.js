@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import Form from "./Form";
@@ -21,11 +21,9 @@ function App() {
     });
   };
 
-  const welcome = () => {
+  useEffect(() => {
     console.log("Hello world created by Krzysiu. Nice to be here");
-  };
-
-  welcome();
+  }, []);
 
   return (
     <>
