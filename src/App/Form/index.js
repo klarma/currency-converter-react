@@ -4,7 +4,6 @@ import { currencies } from "../currencies";
 
 const Form = ({ calculateResult }) => {
     const [amount, setAmount] = useState("");
-
     const [currency, setCurrency] = useState(currencies[0].short);
 
     const onFormSubmit = (event) => {
