@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Form from "./Form";
 import Section from "./Section";
 import Container from "./Container";
-import { currencies } from "./currencies";
+import currencies from "./currencies";
 import Result from "./Result";
 import Timer from "./Section/Timer";
 
