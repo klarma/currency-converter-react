@@ -6,7 +6,7 @@ import Section from "./Section";
 import Container from "./Container";
 import currencies from "./currencies";
 import Result from "./Result";
-import Timer from "./Section/Timer";
+import Timer from "./Timer";
 
 function App() {
   const [result, setResult] = useState();
