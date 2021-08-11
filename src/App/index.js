@@ -30,7 +30,6 @@ function App() {
       <Header />
       <Container>
         <Section
-          className="section"
           title="Kalkulator walut"
           extraSectionContent={
             <Timer />
@@ -44,7 +43,7 @@ function App() {
         />
 
         <Section
-          className="section section--smaller"
+          smaller
           title="Wynik:"
           body={
             <Result
