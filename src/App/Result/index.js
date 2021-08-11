@@ -1,7 +1,7 @@
-import "./style.css";
+import { ResultContent } from "./styled";
 
 const Result = ({ result }) => (
-    <p className="result">
+    <ResultContent>
         {!!result && (
             <>
                 {result.sourceAmount.toFixed(2)}&nbsp;PLN&nbsp;=
@@ -11,7 +11,7 @@ const Result = ({ result }) => (
                 </strong>
             </>
         )}
-    </p>
+    </ResultContent>
 );
 
 export default Result;
