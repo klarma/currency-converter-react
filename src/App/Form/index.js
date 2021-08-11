@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./style.css";
 import currencies from "../currencies";
+import { LabelText, Input, Select, Button } from "./styled";
 
 const Form = ({ calculateResult }) => {
     const [amount, setAmount] = useState("");
@@ -19,18 +19,16 @@ const Form = ({ calculateResult }) => {
 
     return (
         <form
-            className="form"
             onSubmit={onFormSubmit}
         >
             <p>
                 <label>
-                    <span className="form__labelText">
+                    <LabelText>
                         Podaj kwotę w PLN*
-                    </span>
-                    <input
+                    </LabelText>
+                    <Input
                         value={amount}
                         onChange={({ target }) => setAmount(target.value)}
-                        className="form__field"
                         name="PLN"
                         type="number"
                         step="any"
@@ -42,13 +40,12 @@ const Form = ({ calculateResult }) => {
             </p>
             <p>
                 <label>
-                    <span className="form__labelText">
+                    <LabelText>
                         Wybierz walutę
-                    </span>
-                    <select
+                    </LabelText>
+                    <Select
                         value={currency}
                         onChange={({ target }) => setCurrency(target.value)}
-                        className="form__field"
                         name="currency"
                     >
                         {currencies.map((currency => (
@@ -59,12 +56,12 @@ const Form = ({ calculateResult }) => {
                                 {currency.name}
                             </option>
                         )))}
-                    </select>
+                    </Select>
                 </label>
             </p>
             <p>
-                <button className="form__button">Przelicz</button>
-                <button onClick={resetForm} className="form__button" type="reset">Wyczyść</button>
+                <Button>Przelicz</Button>
+                <Button onClick={resetForm} type="reset">Wyczyść</Button>
             </p>
         </form>
     );
