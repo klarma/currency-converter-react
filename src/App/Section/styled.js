@@ -15,6 +15,6 @@ export const StyledSection = styled.section`
     `} 
 `;
 
-export const Header = styled.h1`
+export const Header = styled.h2`
     padding: 15px;
 `;
