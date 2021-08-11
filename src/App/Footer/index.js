@@ -1,9 +1,9 @@
-import "./style.css";
+import { StyledFooter } from "./styled";
 
 const Footer = () => (
-    <footer className="footer">
+    <StyledFooter>
         <p>YouCode 2021 - Edycja II</p>
-    </footer>
+    </StyledFooter>
 );
 
 export default Footer;
