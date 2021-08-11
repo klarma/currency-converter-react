@@ -1,8 +1,8 @@
-import "./style.css";
+import { Title } from "./styled";
 
 const Header = () => (
     <header>
-        <h1 className="header__title">Kantor wymiany walut</h1>
+        <Title>Kantor wymiany walut</Title>
         <p>Pole oznaczone* jest wymagane</p>
     </header>
 );
