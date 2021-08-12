@@ -1,6 +1,6 @@
 import { useState } from "react";
 import currencies from "../currencies";
-import { LabelText, Input, Select, Button } from "./styled";
+import { LabelText, Input, Button } from "./styled";
 
 const Form = ({ calculateResult }) => {
     const [amount, setAmount] = useState("");
@@ -43,7 +43,8 @@ const Form = ({ calculateResult }) => {
                     <LabelText>
                         Wybierz walutę
                     </LabelText>
-                    <Select
+                    <Input
+                        as="select"
                         value={currency}
                         onChange={({ target }) => setCurrency(target.value)}
                         name="currency"
@@ -56,7 +57,7 @@ const Form = ({ calculateResult }) => {
                                 {currency.name}
                             </option>
                         )))}
-                    </Select>
+                    </Input>
                 </label>
             </p>
             <p>

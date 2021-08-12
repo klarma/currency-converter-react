@@ -16,13 +16,6 @@ export const Input = styled.input`
     max-width: 400px;
 `;
 
-export const Select = styled.select`
-    border: 1px solid ${({ theme }) => theme.color.silver};
-    padding: 10px;
-    width: 100%;
-    max-width: 400px;
-`;
-
 export const Button = styled.button`
     width: 100%;
     max-width: 90%;
