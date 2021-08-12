@@ -14,8 +14,12 @@ Project is created with:
 - CSS;
 - Media queries;
 - BEM;
+- Obiekt Date
 - ES6+;
+- JS Modules;
 - React JS;
+- useState, useEffect, useRef
+- Styled-components
 - Create-react-app;
 - Webpack;
 - Babel.
