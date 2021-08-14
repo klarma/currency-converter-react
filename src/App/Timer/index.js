@@ -1,5 +1,5 @@
 import useCurrentDate from "./useCurrentDate";
-import { TimerContent } from "./styled";
+import { StyledTimer } from "./styled";
 
 const Timer = (props) => {
     const date = useCurrentDate();
@@ -14,11 +14,11 @@ const Timer = (props) => {
     });
 
     return (
-        <TimerContent>
+        <StyledTimer>
             Dzisiaj jest
             {" "}
             {formattedDate}
-        </TimerContent>
+        </StyledTimer>
     );
 };
 
