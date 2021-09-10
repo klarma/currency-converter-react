@@ -14,15 +14,16 @@ Project is created with:
 - CSS;
 - Media queries;
 - BEM;
-- Obiekt Date
+- Obiekt Date;
 - ES6+;
+- Immutabilities;
 - JS Modules;
 - React JS;
-- useState, useEffect, useRef
-- Styled-components
+- useState, useEffect, useRef;
+- Styled Components;
 - Create-react-app;
 - Webpack;
-- Babel.
+- Babel. 
 
 ## Description
 
