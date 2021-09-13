@@ -29,7 +29,7 @@ export const Failure = styled.div`
     color: #eee;
     font-size: 18px;
     line-height: 2;
-    padding: 80px;
+    padding: 120px;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 8px;
 
