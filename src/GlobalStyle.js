@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
   
     body {
         max-width: 700px;
+        min-height: 100vh;
         margin: 0 auto;
         background-image: url("${background}");
         background-position: 50%;
