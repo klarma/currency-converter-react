@@ -63,7 +63,7 @@ const Form = ({ calculateResult }) => {
             </p>
             <p>
                 <Button>Przelicz</Button>
-                <Button onClick={resetForm} type="reset">Wyczyść</Button>
+                <Button onClick={resetForm}>Wyczyść</Button>
             </p>
         </form>
     );
