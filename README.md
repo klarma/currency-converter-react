@@ -34,7 +34,7 @@ The currency calculator is another project that aims to show my knowledge especi
 
 ## Instruction 
 
-Enter the amount you want to convert from PLN to other currencies. Select one of three popular foreign currencies. Click the "Przelicz" button and you will get results at the bottom of the application. If you want to clear all fields, just hit on the "Wyczyść" button.
+Enter the amount you want to convert from PLN to other currencies. Select one of all available currencies. Click the "Przelicz" button and you will get results at the bottom of the application. If you want to clear all fields, just hit on the "Wyczyść" button.
 
 ## Getting Started with Create React App
 
